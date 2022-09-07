@@ -301,7 +301,8 @@ function fillModal(i) {
 
   button = document.createElement('button');
   button.classList = 'small-button see-project';
-  button.innerHTML = 'See Live &nbsp; <i class="fa-solid fa-arrow-up-right-from-square -flip-horizontal"></i>';
+  button.innerHTML =
+    'See Live &nbsp; <i class="fa-solid fa-arrow-up-right-from-square -flip-horizontal"></i>';
   anchor.appendChild(button);
 
   anchor = document.createElement('a');
