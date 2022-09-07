@@ -444,8 +444,21 @@ article.featured {
   color: #e05304;
   width: 59%;
   position: relative;
-  margin: 2% 0;
+  margin: 2px 0;
   gap: 16px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .details {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: white;
+    color: #e05304;
+    width: 90%;
+    position: relative;
+    gap: 16px;
+  }
 }
 
 .details > * {
